@@ -3,6 +3,8 @@ from search import search_web
 # from transformers import pipeline
 # import summarize as sz
 # import decision as dcsn
+from dotenv import load_dotenv
+load_dotenv()
 import planner as pln
 import re
 
